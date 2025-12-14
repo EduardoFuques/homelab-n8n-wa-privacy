@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>Política de Privacidad – Homelab n8n WA</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0b0f19;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --link: #93c5fd;
+      --border: rgba(255,255,255,.08);
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --text: #111827;
+        --muted: #4b5563;
+        --link: #2563eb;
+        --border: rgba(17,24,39,.12);
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+
+    header {
+      border: 1px solid var(--border);
+      background: var(--card);
+      padding: 20px 20px;
+      border-radius: 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 { margin: 0 0 6px; font-size: 28px; }
+    .updated { margin: 0; color: var(--muted); }
+
+    section {
+      border: 1px solid var(--border);
+      background: var(--card);
+      padding: 18px 20px;
+      border-radius: 14px;
+      margin: 14px 0;
+    }
+
+    h2 { margin: 0 0 10px; font-size: 18px; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 10px 18px; }
+
+    a { color: var(--link); }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Política de Privacidad – Homelab n8n WA</h1>
+      <p class="updated"><strong>Última actualización:</strong> 14/12/2025</p>
+      <p>
+        Esta Política de Privacidad describe cómo <strong>Homelab n8n WA</strong> (en adelante, el “Servicio”) trata la información
+        al interactuar con usuarios a través de <strong>WhatsApp Cloud API</strong> de Meta, con el fin de
+        <strong>disparar flujos automatizados en n8n</strong>.
+      </p>
+    </header>
+
+    <section>
+      <h2>1. Responsable del tratamiento</h2>
+      <p><strong>Responsable:</strong> Eduardo Fuques Co. (Eduardo Fuques)</p>
+      <p><strong>Email de contacto:</strong> <a href="mailto:edufuques@gmail.com">edufuques@gmail.com</a></p>
+    </section>
+
+    <section>
+      <h2>2. Alcance</h2>
+      <p>Esta política aplica al tratamiento de datos generado por:</p>
+      <ul>
+        <li>Mensajes entrantes enviados por usuarios al número asociado a WhatsApp Cloud API utilizado por el Servicio.</li>
+        <li>Metadatos necesarios para procesar dichos mensajes (por ejemplo, identificadores de conversación/usuario provistos por la plataforma).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Datos que se procesan</h2>
+      <p>El Servicio puede procesar, de forma transitoria, los siguientes datos:</p>
+      <ul>
+        <li>Contenido del mensaje enviado por el usuario.</li>
+        <li>Número de teléfono del usuario (o identificadores equivalentes proporcionados por WhatsApp/Meta).</li>
+        <li>Fecha y hora del mensaje y metadatos técnicos mínimos necesarios para el enrutamiento y ejecución del flujo.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Finalidad del tratamiento</h2>
+      <p>Los datos se procesan <strong>exclusivamente</strong> para:</p>
+      <ul>
+        <li>Recibir mensajes entrantes vía WhatsApp Cloud API.</li>
+        <li>Disparar y ejecutar flujos automatizados en n8n basados en esos mensajes.</li>
+        <li>Responder al usuario en caso de que el flujo lo requiera.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Retención de datos</h2>
+      <p>El Servicio está diseñado para <strong>no almacenar mensajes ni su contenido</strong> de forma persistente.</p>
+      <ul>
+        <li>No se mantiene una base de datos propia destinada a guardar historiales de chat.</li>
+        <li>Los mensajes se procesan de manera transitoria para ejecutar automatizaciones.</li>
+      </ul>
+      <p>
+        <strong>Nota:</strong> Pueden existir registros técnicos (logs) de infraestructura o de terceros (por ejemplo, de Meta o del hosting/red)
+        que estén fuera del control directo del Servicio.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Compartición de datos y terceros</h2>
+      <p>
+        El Servicio utiliza <strong>WhatsApp Cloud API</strong>, provista por <strong>Meta Platforms, Inc.</strong>, para recibir y enviar mensajes.
+      </p>
+      <ul>
+        <li>Al usar WhatsApp, el usuario también está sujeto a las políticas y términos de Meta/WhatsApp.</li>
+        <li>El Servicio no vende datos ni los comparte con terceros con fines publicitarios.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Base legal</h2>
+      <p>El tratamiento se basa en:</p>
+      <ul>
+        <li>Consentimiento y/o acción del usuario al iniciar el contacto y enviar mensajes al canal de WhatsApp utilizado por el Servicio, y</li>
+        <li>La necesidad de procesar esos datos para prestar la funcionalidad solicitada (automatización basada en mensajes).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. Seguridad</h2>
+      <p>
+        Se aplican medidas razonables para proteger la información durante el procesamiento (por ejemplo, controles de acceso al entorno,
+        segmentación de red y buenas prácticas operativas). Sin embargo, ningún sistema es completamente infalible.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Derechos del usuario</h2>
+      <p>
+        El usuario puede solicitar información o ejercer derechos relacionados con sus datos (por ejemplo, acceso, rectificación, eliminación)
+        contactando a:
+      </p>
+      <p><a href="mailto:edufuques@gmail.com">edufuques@gmail.com</a></p>
+      <p>
+        Dado que el Servicio <strong>no retiene mensajes</strong>, es posible que no exista información persistente que eliminar más allá de registros
+        técnicos externos al Servicio.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Menores de edad</h2>
+      <p>
+        El Servicio no está dirigido a menores de edad. Si un tutor considera que un menor ha provisto datos, puede contactar al email indicado.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Cambios a esta política</h2>
+      <p>
+        Esta política puede actualizarse para reflejar cambios técnicos u operativos. La fecha de “Última actualización” indicará la versión vigente.
+      </p>
+    </section>
+
+    <footer>
+      <p>Contacto: <a href="mailto:edufuques@gmail.com">edufuques@gmail.com</a></p>
+    </footer>
+  </main>
+</body>
+</html>
